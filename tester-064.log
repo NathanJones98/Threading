@@ -1,0 +1,32 @@
+main: setcontext_called = 0
+start = 0x5587d9759000
+end = 0x5587d975e000
+ucontext_t size = 968 bytes
+memory address of main() = 0x5587d975939c
+memory address of the program counter (RIP) saved in mycontext = 0x5587d97593be
+argc = -646573792
+argv = 0x7ffdd12108f8
+memory address of the variable setcontext_called = 0x7ffdd1210808
+memory address of the variable err = 0x7ffdd1210800
+number of bytes pushed to the stack between setcontext_called and err = 1
+stack pointer register (RSP) stored in mycontext = 0x7ffdd12107e0
+number of bytes between err and the saved stack in mycontext = 6
+value of uc_stack.ss_sp = 0x0
+main: setcontext_called = 1
+interrupt is disabled = 0
+interrupt is disabled = 1
+starting basic test
+initial thread returns from yield(SELF)
+initial thread returns from yield(0)
+initial thread returns from yield(ANY)
+initial thread returns from yield(INVALID)
+initial thread returns from yield(INVALID2)
+my id is 0
+message: hello from first thread
+thread returns from  first yield
+thread returns from second yield
+
+Return2: 22093
+
+Return2: 0
+test_basic: test_thread.c:81: test_basic: Assertion `ret2 == ret' failed.

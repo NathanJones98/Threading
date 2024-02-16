@@ -1,0 +1,503 @@
+starting preemptive test
+this test will take 60 seconds
+interrupt_handler: context at 0x7ffc0d2f4fc0, time diff = 0 us
+interrupt_handler: context at 0x7ffc0d2f4fc0, time diff = 220 us
+interrupt_handler: context at 0x7ffc0d2f4f80, time diff = 211 us
+interrupt_handler: context at 0x7ffc0d2f4f80, time diff = 209 us
+test_preemptive: malloc.c:2385: sysmalloc: Assertion `(old_top == initial_top (av) && old_size == 0) || ((unsigned long) (old_size) >= MINSIZE && prev_inuse (old_top) && ((unsigned long) old_end & (pagesize - 1)) == 0)' failed.
+starting preemptive test
+this test will take 60 seconds
+interrupt_handler: context at 0x7ffe134c2380, time diff = 0 us
+interrupt_handler: context at 0x7ffe134c2340, time diff = 228 us
+interrupt_handler: context at 0x7ffe134c2300, time diff = 223 us
+interrupt_handler: context at 0x7ffe134c2380, time diff = 223 us
+test_preemptive: malloc.c:2385: sysmalloc: Assertion `(old_top == initial_top (av) && old_size == 0) || ((unsigned long) (old_size) >= MINSIZE && prev_inuse (old_top) && ((unsigned long) old_end & (pagesize - 1)) == 0)' failed.
+starting preemptive test
+this test will take 60 seconds
+interrupt_handler: context at 0x7ffee9738200, time diff = 0 us
+interrupt_handler: context at 0x7ffee9738240, time diff = 222 us
+interrupt_handler: context at 0x7ffee9738200, time diff = 218 us
+interrupt_handler: context at 0x7ffee9738240, time diff = 213 us
+0: thread   0 made it to do_potato
+1: thread   0 passes potato at time =  0.001238
+
+Return2: 21872
+0: thread   1 made it to do_potato
+1: thread   1 passes potato at time =  0.001648
+
+Return2: 32710
+0: thread   2 made it to do_potato
+1: thread   2 passes potato at time =  0.002058
+
+Return2: 21872
+0: thread   3 made it to do_potato
+1: thread   3 passes potato at time =  0.002465
+
+Return2: 32710
+0: thread   4 made it to do_potato
+1: thread   4 passes potato at time =  0.002890
+
+Return2: 0
+0: thread   5 made it to do_potato
+1: thread   5 passes potato at time =  0.003316
+
+Return2: 0
+0: thread   6 made it to do_potato
+1: thread   6 passes potato at time =  0.003355
+
+Return2: 0
+0: thread   7 made it to do_potato
+1: thread   7 passes potato at time =  0.003389
+
+Return2: 0
+0: thread   8 made it to do_potato
+1: thread   8 passes potato at time =  0.003423
+
+Return2: 0
+0: thread   9 made it to do_potato
+1: thread   9 passes potato at time =  0.003466
+
+Return2: 0
+Return2: 0
+0: thread  10 made it to do_potato
+1: thread  10 passes potato at time =  0.003517
+
+Return2: 0
+0: thread  11 made it to do_potato
+1: thread  11 passes potato at time =  0.003559
+
+Return2: 0
+0: thread  12 made it to do_potato
+1: thread  12 passes potato at time =  0.003595
+
+Return2: 0
+0: thread  13 made it to do_potato
+1: thread  13 passes potato at time =  0.003636
+
+Return2: 0
+0: thread  14 made it to do_potato
+1: thread  14 passes potato at time =  0.003672
+
+Return2: 0
+0: thread  15 made it to do_potato
+1: thread  15 passes potato at time =  0.003726
+
+Return2: 0
+0: thread  16 made it to do_potato
+1: thread  16 passes potato at time =  0.003768
+
+Return2: 0
+0: thread  17 made it to do_potato
+1: thread  17 passes potato at time =  0.003830
+
+Return2: 0
+0: thread  18 made it to do_potato
+1: thread  18 passes potato at time =  0.003866
+
+Return2: 0
+0: thread  19 made it to do_potato
+
+Return2: 0
+1: thread  19 passes potato at time =  0.003946
+0: thread  20 made it to do_potato
+1: thread  20 passes potato at time =  0.003973
+
+Return2: 0
+0: thread  21 made it to do_potato
+1: thread  21 passes potato at time =  0.004014
+
+Return2: 0
+0: thread  22 made it to do_potato
+1: thread  22 passes potato at time =  0.004049
+
+Return2: 0
+0: thread  23 made it to do_potato
+1: thread  23 passes potato at time =  0.004089
+
+Return2: 0
+0: thread  24 made it to do_potato
+
+Return2: 0
+1: thread  24 passes potato at time =  0.004157
+0: thread  25 made it to do_potato
+1: thread  25 passes potato at time =  0.004185
+
+Return2: 0
+0: thread  26 made it to do_potato
+1: thread  26 passes potato at time =  0.004222
+
+Return2: 0
+0: thread  27 made it to do_potato
+1: thread  27 passes potato at time =  0.004261
+
+Return2: 0
+0: thread  28 made it to do_potato
+1: thread  28 passes potato at time =  0.004303
+
+Return2: 0
+0: thread  29 made it to do_potato
+
+Return2: 0
+1: thread  29 passes potato at time =  0.004370
+0: thread  30 made it to do_potato
+1: thread  30 passes potato at time =  0.004399
+
+Return2: 0
+0: thread  31 made it to do_potato
+1: thread  31 passes potato at time =  0.004432
+
+Return2: 0
+0: thread  32 made it to do_potato
+1: thread  32 passes potato at time =  0.004471
+
+Return2: 0
+0: thread  33 made it to do_potato
+1: thread  33 passes potato at time =  0.004511
+
+Return2: 0
+0: thread  34 made it to do_potato
+1: thread  34 passes potato at time =  0.004547
+
+Return2: 0
+0: thread  35 made it to do_potato
+1: thread  35 passes potato at time =  0.004603
+
+Return2: 0
+0: thread  36 made it to do_potato
+1: thread  36 passes potato at time =  0.004650
+
+Return2: 0
+0: thread  37 made it to do_potato
+1: thread  37 passes potato at time =  0.004693
+
+Return2: 0
+0: thread  38 made it to do_potato
+1: thread  38 passes potato at time =  0.004730
+
+Return2: 0
+0: thread  39 made it to do_potato
+1: thread  39 passes potato at time =  0.004767
+
+Return2: 292061376
+0: thread  40 made it to do_potato
+1: thread  40 passes potato at time =  0.004827
+
+Return2: 0
+0: thread  41 made it to do_potato
+1: thread  41 passes potato at time =  0.004869
+
+Return2: 0
+0: thread  42 made it to do_potato
+1: thread  42 passes potato at time =  0.004907
+
+Return2: 0
+0: thread  43 made it to do_potato
+1: thread  43 passes potato at time =  0.004944
+
+Return2: 0
+0: thread  44 made it to do_potato
+1: thread  44 passes potato at time =  0.004987
+
+Return2: 0
+0: thread  45 made it to do_potato
+1: thread  45 passes potato at time =  0.005035
+
+Return2: 0
+
+Return2: 0
+test_preemptive: malloc.c:2385: sysmalloc: Assertion `(old_top == initial_top (av) && old_size == 0) || ((unsigned long) (old_size) >= MINSIZE && prev_inuse (old_top) && ((unsigned long) old_end & (pagesize - 1)) == 0)' failed.
+starting wakeup test
+test_wakeup: test_thread.c:475: test_wakeup: Assertion `ret == THREAD_INVALID' failed.
+starting wakeup test
+test_wakeup: test_thread.c:475: test_wakeup: Assertion `ret == THREAD_INVALID' failed.
+starting wakeup test
+test_wakeup: test_thread.c:475: test_wakeup: Assertion `ret == THREAD_INVALID' failed.
+starting wakeup test
+test_wakeup_all: test_thread.c:475: test_wakeup: Assertion `ret == THREAD_INVALID' failed.
+starting wakeup test
+test_wakeup_all: test_thread.c:475: test_wakeup: Assertion `ret == THREAD_INVALID' failed.
+starting wakeup test
+test_wakeup_all: test_thread.c:475: test_wakeup: Assertion `ret == THREAD_INVALID' failed.
+starting wait test
+test_wait: test_thread.c:574: test_wait: Assertion `ret == THREAD_INVALID' failed.
+starting wait_kill test
+test_wait_kill: test_thread.c:624: test_wait_kill: Assertion `ret == child' failed.
+starting wait_parent test
+1: thread woken
+
+Return2: 22083
+starting lock test
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+test_lock: test_thread.c:31: mallinfo_check: Assertion `end.uordblks <= (start->uordblks + (2 * THREAD_MIN_STACK))' failed.
+starting lock test
+test_lock: malloc.c:2385: sysmalloc: Assertion `(old_top == initial_top (av) && old_size == 0) || ((unsigned long) (old_size) >= MINSIZE && prev_inuse (old_top) && ((unsigned long) old_end & (pagesize - 1)) == 0)' failed.
+starting lock test
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+
+Return2: 0
+test_lock: malloc.c:2385: sysmalloc: Assertion `(old_top == initial_top (av) && old_size == 0) || ((unsigned long) (old_size) >= MINSIZE && prev_inuse (old_top) && ((unsigned long) old_end & (pagesize - 1)) == 0)' failed.
+starting cv signal test
+threads should print out in reverse order
+test_cv_signal_thread took 0 us. That's too fast. You must be busy looping
+
+Return2: 0
+starting cv signal test
+threads should print out in reverse order
+test_cv_signal: malloc.c:2385: sysmalloc: Assertion `(old_top == initial_top (av) && old_size == 0) || ((unsigned long) (old_size) >= MINSIZE && prev_inuse (old_top) && ((unsigned long) old_end & (pagesize - 1)) == 0)' failed.
+starting cv signal test
+threads should print out in reverse order
+test_cv_signal_thread took 1 us. That's too fast. You must be busy looping
+
+Return2: 0
+starting cv broadcast test
+threads should print out in reverse order
+test_cv_broadcast_thread took 1 us. That's too fast. You must be busy looping
+
+Return2: 0
+starting cv broadcast test
+threads should print out in reverse order
+test_cv_broadcast: malloc.c:2385: sysmalloc: Assertion `(old_top == initial_top (av) && old_size == 0) || ((unsigned long) (old_size) >= MINSIZE && prev_inuse (old_top) && ((unsigned long) old_end & (pagesize - 1)) == 0)' failed.
+starting cv broadcast test
+threads should print out in reverse order
+test_cv_broadcast: malloc.c:2385: sysmalloc: Assertion `(old_top == initial_top (av) && old_size == 0) || ((unsigned long) (old_size) >= MINSIZE && prev_inuse (old_top) && ((unsigned long) old_end & (pagesize - 1)) == 0)' failed.
